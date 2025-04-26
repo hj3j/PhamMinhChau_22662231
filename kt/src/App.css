@@ -92,3 +92,46 @@ footer {
   font-size: 18px;
   cursor: pointer;
 }
+
+
+/* BANER********************************************************** */
+
+.banner {
+  position: relative;
+  width: 95%;
+  height: auto;
+  overflow: hidden;
+}
+
+.banner-image {
+  /* width: 100%; */
+  height: auto;
+  display: block;
+}
+
+.banner-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(9, 6, 6, 0.7);
+  border: none;
+  font-size: 24px;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 50%;
+  user-select: none;
+  transition: background 0.3s;
+}
+
+.banner-btn:hover {
+  background: rgba(255, 255, 255, 0.9);
+}
+
+.banner-btn.left {
+  left: 10px;
+}
+
+.banner-btn.right {
+  right: 10px;
+}
+
