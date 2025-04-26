@@ -135,3 +135,85 @@ footer {
   right: 10px;
 }
 
+
+/* MAIN**************************************************************************** */
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Container Layout */
+.flex {
+  display: flex;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 25%;
+  background-color: #1e3a8a; /* Dark blue color */
+  color: white;
+  padding: 1rem;
+  height: 100vh; /* Full height */
+}
+
+.sidebar h2 {
+  font-weight: bold;
+  margin-bottom: 1rem;
+  font-size: 1.25rem;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.sidebar li {
+  margin-bottom: 0.5rem;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.sidebar li:hover {
+  text-decoration: underline;
+  color: #63b3ed; /* Light blue hover color */
+}
+
+/* Main Content */
+.main-content {
+  width: 75%;
+  padding: 1rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Two columns */
+  gap: 1rem;
+}
+
+.section {
+  background-color: white;
+  border-radius: 8px;
+  padding: 1rem;
+  border: 1px solid #e5e7eb;
+}
+
+.section h3 {
+  font-size: 1.125rem;
+  font-weight: bold;
+  color: #1e40af; /* Blue color for section titles */
+}
+
+.section ul {
+  padding-left: 1.5rem;
+  margin-top: 0.5rem;
+}
+
+.section ul li {
+  font-size: 0.875rem;
+  margin-bottom: 0.5rem;
+  background-color: #1e40af;
+}
+
+.section .view-all {
+  font-size: 0.75rem;
+}
+
